@@ -15,6 +15,13 @@ namespace Exercise8
             {
               Console.WriteLine(count);
             }
+
+            int ast = 0;
+            int a = int.Parse(Console.ReadLine());
+            for (ast=0; ast<a; ast++)
+            {
+                Console.Write("*");
+            }
         }
     }
 }
